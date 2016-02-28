@@ -2,7 +2,7 @@ shinyUI(pageWithSidebar(
   headerPanel('Central limit theorem'),
   sidebarPanel(
     a("Click here to watch a presentation for this application",
-      href="http://rpubs.com/mtiberi/devdataprod",
+      href="http://mtiberi.github.io/devdataprod",
       target="_blank"),
   
     selectInput('dist', 'Distribution', c("uniform", "exponential")),
@@ -11,6 +11,5 @@ shinyUI(pageWithSidebar(
   ),
   mainPanel(
     plotOutput('plot1')
-    #textOutput('res')
   )
 ))

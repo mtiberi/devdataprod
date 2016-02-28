@@ -23,11 +23,11 @@ How to use it
 
 - The user chooses one of the available distributions
 - The user sets the number if iterations
-- The user presses the "Show" button
+- The application shows a comparison between the distribution of the means and the normal distribution
 
 
 
 The source code
 ========================================================
 
-The code for the application is available at [http://my.website.com](http://my.website.com)
+The code for the application is available at [https://github.com/mtiberi/devdataprod](https://github.com/mtiberi/devdataprod)
